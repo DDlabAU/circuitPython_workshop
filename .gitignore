@@ -1,5 +1,22 @@
-venv/
-cpx_data.db
+# Python cache
 __pycache__/
-circuit python kodeeksempler/AHT20 basic code.py
-circuit python kodeeksempler/CPXtest.py
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Python logs
+*.log
+
+# Optional: ignore database if you want fresh data for others
+# cpx_data.db

@@ -56,13 +56,6 @@ def api_data():
         'button_count': latest['button_count'] if latest else 0
     })
 
-# optional route to view last 10 readings
-@app.route('/readings')
-def view_readings():
-    conn = get_db()
-    rows = conn.execute('SELECT * FROM readings ORDER BY timestamp DESC LIMIT 10').fetchall()
-    conn.close()
-    return "<pre>" + "\n".join(str(dict(r)) for r in rows) + "</pre>"
 
 # --------------------------
 # Main
