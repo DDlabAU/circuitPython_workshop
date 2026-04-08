@@ -1,0 +1,5 @@
+venv/
+cpx_data.db
+__pycache__/
+circuit python kodeeksempler/AHT20 basic code.py
+circuit python kodeeksempler/CPXtest.py
