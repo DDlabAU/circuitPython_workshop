@@ -9,6 +9,9 @@ venv/
 env/
 ENV/
 
+# Database files
+*.db
+
 # VS Code settings
 .vscode/
 
