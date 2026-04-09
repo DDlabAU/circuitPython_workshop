@@ -1,3 +1,5 @@
+#obs this a rough creation using Ai meant as an example. 
+
 import serial                       # lets python talk to serial ports (USB)
 import serial.tools.list_ports     # lets us list all available serial ports
 import sqlite3                     # lets us work with a sqlite database
